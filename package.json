@@ -1,0 +1,22 @@
+{
+  "name": "announcer",
+  "version": "1.0.0",
+  "description": "Discord bot for announcing stuff in embeds.",
+  "main": "index.js",
+  "scripts": {
+    "run-announcer": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel11420/announcer.git"
+  },
+  "author": "daniel11420",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/daniel11420/announcer/issues"
+  },
+  "homepage": "https://github.com/daniel11420/announcer#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
