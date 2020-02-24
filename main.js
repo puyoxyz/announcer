@@ -49,6 +49,7 @@ client.on("message", (message => {
         } else {
             message.channel.send(Embed); //send the announcement
         }
+        message.delete()
     }
 }));
 
