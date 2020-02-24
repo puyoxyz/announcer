@@ -4,10 +4,11 @@ This is a bot for announcing things. I made this to replace Dyno in [CPBack](htt
 ## Instructions
 ### End User - Setup (Ubuntu)
 
- 1. Download the repository to a folder.
+ 1. Download the repository to a folder and install dependencies.
  - `mkdir Announcer` 
  - `git clone https://github.com/daniel11420/announcer.git ~/Announcer`
  - `cd ~/Announcer`
+ - `npm install`
  2. Set the bot up (configuration file(s))
  - `mkdir local`
  - `cp example_local/* local/`
