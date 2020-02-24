@@ -23,7 +23,7 @@ client.on("message", (message => {
     let LowerContent = message.content.toLowerCase(); // Get message content in lowercase and put it in a var
 
     if (LowerContent.startsWith(prefix + "announce ")) {
-        if (!message.member.roles.find(r => r.name === "unb-mod")) return; // Stop running command if user doesn't have unb-mod
+        if (!message.member.roles.find(r => r.name === config.bot.allowedRoleName)) return; // Stop running command if user doesn't have unb-mod
 
         let PingType = "none"; // define ping type. no ping by default
 
